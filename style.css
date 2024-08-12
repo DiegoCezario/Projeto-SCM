@@ -11,6 +11,11 @@
     src: url(fontes/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.ttf);
 }
 
+@font-face {
+    font-family: 'teste';
+    src: url(fontes/Vanilla\ Whale.otf);
+}
+
 :root{
     --corsigma: #960404;
 }
@@ -94,8 +99,13 @@ main{
     padding: 19px;
 }
 
-article>h1{
+article>h1#h1n1{
+    font-size: 3em;
+    margin-bottom: 60px;
+    font-weight: lighter;
     text-align: center;
+    font-family: 'teste';
+    color: black;
 
 }
 
