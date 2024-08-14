@@ -32,6 +32,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+
 header{
     font-family: 'mid';
     font-weight: bolder;
@@ -107,6 +109,10 @@ article>h1#h1n1{
     font-family: 'teste';
     color: black;
 
+}
+
+article>h1#h1n2{
+    font-variant: small-caps;
 }
 
 footer{
