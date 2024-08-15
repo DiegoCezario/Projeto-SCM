@@ -13,9 +13,18 @@
 
 @font-face {
     font-family: 'teste';
-    src: url(fontes/Vanilla\ Whale.otf);
+    src: url(fontes/CFAnarchy-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'teste2';
+    src: url(fontes/DIEDIEDI.TTF);
+}
+
+@font-face {
+    font-family: 'teste3';
+    src: url(fontes/Bakemono-Stereo-Extrabold-trial.ttf);
+}
 :root{
     --corsigma: #960404;
 }
@@ -32,7 +41,9 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
+strong{
+    color: #a3a32f;
+}
 
 header{
     font-family: 'mid';
@@ -47,18 +58,19 @@ header{
 }
 
 header>h1{
-    font-family: 'og';
+    font-family: 'teste2';
     font-weight: lighter;
-    font-size: 4em;
+    font-size: 4.5em;
     padding-top: 13px;
-    margin-top: 46px;
+    margin-top: 28px;
+    margin-bottom: 0px;
 
 
 }
 
 header>p{
     font-size: 0.8em;
-    padding: 5px 20px 53px 10px;
+    padding: 5px 20px 60px 10px;
     color: white;
     
 }
@@ -97,24 +109,67 @@ main{
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin-top: 37px;
+    margin-top: 99px;
     padding: 19px;
 }
 
+main a {
+    color: #640404;
+    background-color: #d83939b6;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1px 2px;
+    font-size: 14px;
+}
+main a.linkimagem { 
+    background-color: #ffffff;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: #bbb012;
+}
+
+
+a.external::after{
+content: '\00A0\1F517'
+}
+
+article>h1{
+    font-family: 'teste3';
+    font-size: 1.8em;
+    margin: 19px 13px 16px 13px;
+    color: #460101;
+}
+
 article>h1#h1n1{
-    font-size: 3em;
+    font-size: 4.5em;
     margin-bottom: 60px;
     font-weight: lighter;
     text-align: center;
     font-family: 'teste';
-    color: black;
+    color: rgb(0, 0, 0);
+    background-image: none;
 
 }
 
 article>h1#h1n2{
     font-variant: small-caps;
+    font-size: 1.5em;
 }
 
+article>p{
+    text-indent: 30px;
+    line-height: 1.7em;
+    font-size: 1em;
+    margin: 15px 0px;
+}
+article>iframe{
+    border: 2.5px solid black;
+    margin-left: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 footer{
     text-align: center;
     color: white;
@@ -130,6 +185,6 @@ footer>a{
 }
 
 footer>a:hover{
-    color: yellow;
+    color: rgb(247, 204, 14);
     text-decoration: underline;
 }
