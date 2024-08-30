@@ -25,6 +25,11 @@
     font-family: 'teste3';
     src: url(fontes/Bakemono-Stereo-Extrabold-trial.ttf);
 }
+
+@font-face {
+    font-family: 'principal';
+    src: url(fontes/Century\ Gothic.ttf);
+}
 :root{
     --corsigma: #960404;
 }
@@ -102,14 +107,14 @@ main{
     background-color: white;
     margin: auto;
     text-align: justify;
-    max-width: 1296px ;
+    max-width: 1432px ;
     min-width: 300px ;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.644);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin-top: 99px;
+    margin-top: 146px;
     padding: 19px;
 }
 
@@ -137,14 +142,14 @@ content: '\00A0\1F517'
 
 article>h1{
     font-family: 'teste3';
-    font-size: 1.8em;
+    font-size: 2.38em;
     margin: 19px 13px 16px 13px;
     color: #460101;
 }
 
 article>h1#h1n1{
     font-size: 4.5em;
-    margin-bottom: 60px;
+    margin-bottom: 85px;
     font-weight: lighter;
     text-align: center;
     font-family: 'teste';
@@ -155,13 +160,14 @@ article>h1#h1n1{
 
 article>h1#h1n2{
     font-variant: small-caps;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 article>p{
     text-indent: 30px;
     line-height: 1.7em;
-    font-size: 1em;
+    font-size: 1.5em;
+    font-family: 'principal';
     margin: 15px 0px;
 }
 article>iframe{
@@ -174,7 +180,7 @@ footer{
     text-align: center;
     color: white;
     background-color: rgb(0, 0, 0);
-    margin-top: 32px;
+    margin-top: 56px;
     padding: 5px;
 }
 
