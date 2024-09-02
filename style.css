@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'og' ;
-    src: url(fontes/Already\ Broken\ Dull\ Demo\ Version.otf);
+    src: url(fontes/Road_Rage.otf);
 
 }
 
@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: 'teste';
-    src: url(fontes/CFAnarchy-Regular.ttf);
+    src: url(fontes/Inlanders\ Demo.otf);
 }
 
 @font-face {
@@ -34,6 +34,7 @@
     --corsigma: #960404;
 }
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -49,6 +50,7 @@
 strong{
     color: #a3a32f;
 }
+
 
 header{
     font-family: 'mid';
@@ -120,11 +122,11 @@ main{
 
 main a {
     color: #640404;
-    background-color: #d83939b6;
+    background-color: #ad121261;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
     padding: 1px 2px;
-    font-size: 14px;
+    font-size: 19px;
 }
 main a.linkimagem { 
     background-color: #ffffff;
@@ -132,7 +134,7 @@ main a.linkimagem {
 
 main a:hover{
     text-decoration: underline;
-    color: #bbb012;
+    color: rgba(255, 241, 50, 0.664);
 }
 
 
@@ -140,27 +142,43 @@ a.external::after{
 content: '\00A0\1F517'
 }
 
-article>h1{
-    font-family: 'teste3';
-    font-size: 2.38em;
-    margin: 19px 13px 16px 13px;
-    color: #460101;
+div{
+    text-align: center;
+    position: relative;
 }
 
-article>h1#h1n1{
-    font-size: 4.5em;
-    margin-bottom: 85px;
+div>img{
+    width: 91px;
+    margin-left: 28px;
+    position: absolute;
+    left: 45%;
+    top: -70%;
+    
+}
+
+div>h1#h1n1{
+    display: inline-block;
+    margin-bottom: 112px;
+    margin-top: 40px;
+    font-size: 6em;
     font-weight: lighter;
-    text-align: center;
-    font-family: 'teste';
+    font-family: 'og';
+    text-indent: 0px;
     color: rgb(0, 0, 0);
     background-image: none;
+    
 
 }
 
-article>h1#h1n2{
+
+article>h1{
     font-variant: small-caps;
     font-size: 1.8em;
+    font-family: 'teste';
+    text-indent: 17px;
+    color: #5f0202;
+    background-image: linear-gradient(to right, #b76b6b40, white);;
+    
 }
 
 article>p{
@@ -169,12 +187,13 @@ article>p{
     font-size: 1.5em;
     font-family: 'principal';
     margin: 15px 0px;
+    padding: 15px;
 }
 article>iframe{
-    border: 2.5px solid black;
-    margin-left: 96px;
+    border: 2.5px solid #a3a32f;
+    margin-left: 137px;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 footer{
     text-align: center;
