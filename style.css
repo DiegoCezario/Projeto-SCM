@@ -148,13 +148,13 @@ div{
 }
 
 div>img{
-    width: 91px;
+    width: 108px;
     margin-left: 28px;
     position: absolute;
-    left: 45%;
-    top: -70%;
-    
+    left: 44.4%;
+    top: -73%;
 }
+    
 
 div>h1#h1n1{
     display: inline-block;
@@ -195,6 +195,29 @@ article>iframe{
     margin-top: 15px;
     margin-bottom: 40px;
 }
+
+
+article>a>picture>img{
+    width: 411px;
+    border: 3px solid #a3a32f;
+    border-radius: 305px;
+
+}
+
+
+article>A>picture>img#scm366{
+
+    margin: 43px 212px 0px 184px;
+
+}
+
+
+
+
+
+
+
+
 footer{
     text-align: center;
     color: white;
