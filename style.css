@@ -120,6 +120,10 @@ main{
     padding: 19px;
 }
 
+main img{
+  width: 100%;
+}
+
 main a {
     color: #640404;
     background-color: #ad121261;
@@ -141,6 +145,11 @@ main a:hover{
 a.external::after{
 content: '\00A0\1F517'
 }
+
+main a.ima{
+    background-color: #a3a32f00;
+}
+
 
 div{
     text-align: center;
@@ -170,12 +179,22 @@ div>h1#h1n1{
 
 }
 
+div#dov{
+    position: relative;
+    background-color: #5f020200;
+    margin: 0px 1px 36px -82px;
+    padding-bottom: 26%;
+}
+
+
+
 
 article>h1{
     font-variant: small-caps;
     font-size: 1.8em;
     font-family: 'teste';
     text-indent: 17px;
+    margin: 12px 10px 10px 10px;
     color: #5f0202;
     background-image: linear-gradient(to right, #b76b6b40, white);;
     
@@ -189,27 +208,53 @@ article>p{
     margin: 15px 0px;
     padding: 15px;
 }
-article>iframe{
+article>div>iframe#free{
+
+    position: absolute;
+    top: 2%;
+    left: 53%;
+    width: 34%;
+    height: 78%;
+    background-color: #5f0202;
     border: 2.5px solid #a3a32f;
-    margin-left: 137px;
+    margin-right: 71px;
+    margin-left: 72px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+article>div>iframe#lon{
+
+    position: absolute;
+    top: 2%;
+    left: 9%;
+    width: 34%;
+    height: 78%;
+    background-color: #410505f2;
+    border: 2.5px solid #a3a32f;
+    margin-right: 71px;
+    margin-left: 72px;
     margin-top: 15px;
     margin-bottom: 40px;
 }
 
 
-article>a>picture>img{
+article>picture>a.ima>img{
+    background-color: #5f0202;
+}
+
+article>a.ima>img{
     width: 411px;
+    margin: 17px 31px 9px 191px;
     border: 3px solid #a3a32f;
     border-radius: 305px;
+    
 
 }
 
 
-article>A>picture>img#scm366{
 
-    margin: 43px 212px 0px 184px;
-
-}
+    
 
 
 
