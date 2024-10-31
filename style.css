@@ -98,15 +98,18 @@ header>nav{
     height: 71px;
     text-align: center ;
     
+    
 }
 
 nav>a{
+    
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 3px;
     text-decoration: none;
     color: var(--corsigma);
     margin: 127px;
-    width: 100%;
+    box-sizing: border-box;
+    padding: 3.3px;
    
 }
 
