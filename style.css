@@ -45,6 +45,7 @@
     width: 100vw;
     height: 100vh;
     margin: 0px;
+    overflow-x: hidden;
     background-image: url(imagens/fundo.jpeg);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -202,7 +203,9 @@ div#dov{
     padding-bottom: 26%;
 }
 
-
+article{
+    display: contents;
+}
 
 
 article>h1{
@@ -274,7 +277,7 @@ footer{
     color: white;
     background-color: rgb(0, 0, 0);
     margin-top: 56px;
-    padding: 5px;
+    padding-top: 5px;
 }
 
 footer>a{
