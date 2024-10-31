@@ -42,9 +42,15 @@
  }
 
  body{
-    background-image: url(imagens/fundo.jpeg);
+    width: 100vw;
     height: 100vh;
+    background-image: url(imagens/fundo.jpeg);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html{
+    width:100vw;
+    height: 100vh;
 }
 
 strong{
@@ -59,7 +65,8 @@ header{
     color: var(--corsigma);
     margin: auto;
     text-align: center;
-    padding: 4px;
+    width: 100vw;
+    padding: 4px 0px;
    
     
 }
@@ -83,19 +90,21 @@ header>p{
 }
 
 header>nav{
-    text-align: center;
+    position: relative;
     background-color: #000000b2;
-    padding: 1px 10px;
+    padding: 2px 0px;
+    height: 71px;
+    text-align: center ;
     
 }
 
 nav>a{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 120px;
-    padding: 6px;
     border-radius: 3px;
     text-decoration: none;
     color: var(--corsigma);
+    margin: 127px;
+    width: 100%;
    
 }
 
@@ -109,7 +118,7 @@ main{
     background-color: white;
     margin: auto;
     text-align: justify;
-    max-width: 1432px ;
+    max-width: 80vw ;
     min-width: 300px ;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.644);
     border-bottom-right-radius: 10px;
@@ -150,22 +159,28 @@ main a.ima{
     background-color: #a3a32f00;
 }
 
-
-div{
+div#n1{
     text-align: center;
     position: relative;
 }
 
-div>img{
+header>nav>div{
+    
+    position: relative;
+}
+
+nav>img{
+    
+    display: block;
+    margin: auto;
     width: 108px;
-    margin-left: 28px;
-    position: absolute;
-    left: 44.4%;
-    top: -73%;
+    
+    
 }
     
 
 div>h1#h1n1{
+    
     display: inline-block;
     margin-bottom: 112px;
     margin-top: 40px;
@@ -182,7 +197,7 @@ div>h1#h1n1{
 div#dov{
     position: relative;
     background-color: #5f020200;
-    margin: 0px 1px 36px -82px;
+    margin: 0px 6px 36px -124px;
     padding-bottom: 26%;
 }
 
@@ -244,23 +259,13 @@ article>picture>a.ima>img{
 }
 
 article>a.ima>img{
-    width: 411px;
-    margin: 17px 31px 9px 191px;
+    width: 255px;
+    margin: 17px 31px 9px 13px;
     border: 3px solid #a3a32f;
     border-radius: 305px;
     
 
 }
-
-
-
-    
-
-
-
-
-
-
 
 
 footer{
@@ -281,3 +286,5 @@ footer>a:hover{
     color: rgb(247, 204, 14);
     text-decoration: underline;
 }
+
+
